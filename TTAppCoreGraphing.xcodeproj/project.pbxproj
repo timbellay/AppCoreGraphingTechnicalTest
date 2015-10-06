@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E54334D1B0BB7F500A2878B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54334C1B0BB7F500A2878B /* main.m */; };
+		2E5433501B0BB7F500A2878B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E54334F1B0BB7F500A2878B /* AppDelegate.m */; };
+		2E5433531B0BB7F500A2878B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433521B0BB7F500A2878B /* ViewController.m */; };
+		2E5433561B0BB7F500A2878B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E5433541B0BB7F500A2878B /* Main.storyboard */; };
+		2E5433581B0BB7F500A2878B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E5433571B0BB7F500A2878B /* Images.xcassets */; };
+		2E54335B1B0BB7F500A2878B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E5433591B0BB7F500A2878B /* LaunchScreen.xib */; };
+		2E5433671B0BB7F500A2878B /* TTAppCoreGraphingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433661B0BB7F500A2878B /* TTAppCoreGraphingTests.m */; };
+		2E5433F91B0BBC8800A2878B /* APCAppearanceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433C51B0BBC8800A2878B /* APCAppearanceInfo.m */; };
+		2E5433FA1B0BBC8800A2878B /* APCBadgeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433C71B0BBC8800A2878B /* APCBadgeLabel.m */; };
+		2E5433FB1B0BBC8800A2878B /* APCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433C91B0BBC8800A2878B /* APCButton.m */; };
+		2E5433FC1B0BBC8800A2878B /* APCCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433CB1B0BBC8800A2878B /* APCCircularProgressView.m */; };
+		2E5433FD1B0BBC8800A2878B /* APCConcentricProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433CD1B0BBC8800A2878B /* APCConcentricProgressView.m */; };
+		2E5433FE1B0BBC8800A2878B /* APCConfirmationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433CF1B0BBC8800A2878B /* APCConfirmationView.m */; };
+		2E5433FF1B0BBC8800A2878B /* APCConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433D11B0BBC8800A2878B /* APCConstants.m */; };
+		2E5434001B0BBC8800A2878B /* APCCustomBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433D31B0BBC8800A2878B /* APCCustomBackButton.m */; };
+		2E5434011B0BBC8800A2878B /* APCHorizontalBottomThinLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433D51B0BBC8800A2878B /* APCHorizontalBottomThinLineView.m */; };
+		2E5434021B0BBC8800A2878B /* APCHorizontalThinLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433D71B0BBC8800A2878B /* APCHorizontalThinLineView.m */; };
+		2E5434031B0BBC8800A2878B /* APCInsightBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433D91B0BBC8800A2878B /* APCInsightBarView.m */; };
+		2E5434041B0BBC8800A2878B /* APCPieGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433DB1B0BBC8800A2878B /* APCPieGraphView.m */; };
+		2E5434051B0BBC8800A2878B /* APCStepProgressBar+Appearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433DD1B0BBC8800A2878B /* APCStepProgressBar+Appearance.m */; };
+		2E5434061B0BBC8800A2878B /* APCStepProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433DF1B0BBC8800A2878B /* APCStepProgressBar.m */; };
+		2E5434071B0BBC8800A2878B /* APCVerticalThinLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433E11B0BBC8800A2878B /* APCVerticalThinLineView.m */; };
+		2E5434081B0BBC8800A2878B /* APCAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433E41B0BBC8800A2878B /* APCAxisView.m */; };
+		2E5434091B0BBC8800A2878B /* APCBaseGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433E61B0BBC8800A2878B /* APCBaseGraphView.m */; };
+		2E54340A1B0BBC8800A2878B /* APCCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433E81B0BBC8800A2878B /* APCCircleView.m */; };
+		2E54340B1B0BBC8800A2878B /* APCDiscreteGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433EA1B0BBC8800A2878B /* APCDiscreteGraphView.m */; };
+		2E54340C1B0BBC8800A2878B /* APCLineGraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433EE1B0BBC8800A2878B /* APCLineGraphView.m */; };
+		2E54340D1B0BBC8800A2878B /* APCPresentAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433F01B0BBC8800A2878B /* APCPresentAnimator.m */; };
+		2E54340E1B0BBC8800A2878B /* APCResizeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433F21B0BBC8800A2878B /* APCResizeView.m */; };
+		2E54340F1B0BBC8800A2878B /* UIColor+APCAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433F41B0BBC8800A2878B /* UIColor+APCAppearance.m */; };
+		2E5434101B0BBC8800A2878B /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433F61B0BBC8800A2878B /* UIImage+ImageEffects.m */; };
+		2E5434111B0BBC8800A2878B /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5433F81B0BBC8800A2878B /* UIView+Helper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2E5433611B0BB7F500A2878B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E54333F1B0BB7F500A2878B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E5433461B0BB7F500A2878B;
+			remoteInfo = TTAppCoreGraphing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2E5433471B0BB7F500A2878B /* TTAppCoreGraphing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTAppCoreGraphing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E54334B1B0BB7F500A2878B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E54334C1B0BB7F500A2878B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E54334E1B0BB7F500A2878B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E54334F1B0BB7F500A2878B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E5433511B0BB7F500A2878B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E5433521B0BB7F500A2878B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E5433551B0BB7F500A2878B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2E5433571B0BB7F500A2878B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2E54335A1B0BB7F500A2878B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2E5433601B0BB7F500A2878B /* TTAppCoreGraphingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTAppCoreGraphingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5433651B0BB7F500A2878B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E5433661B0BB7F500A2878B /* TTAppCoreGraphingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTAppCoreGraphingTests.m; sourceTree = "<group>"; };
+		2E5433C41B0BBC8800A2878B /* APCAppearanceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCAppearanceInfo.h; sourceTree = "<group>"; };
+		2E5433C51B0BBC8800A2878B /* APCAppearanceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCAppearanceInfo.m; sourceTree = "<group>"; };
+		2E5433C61B0BBC8800A2878B /* APCBadgeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCBadgeLabel.h; sourceTree = "<group>"; };
+		2E5433C71B0BBC8800A2878B /* APCBadgeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCBadgeLabel.m; sourceTree = "<group>"; };
+		2E5433C81B0BBC8800A2878B /* APCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCButton.h; sourceTree = "<group>"; };
+		2E5433C91B0BBC8800A2878B /* APCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCButton.m; sourceTree = "<group>"; };
+		2E5433CA1B0BBC8800A2878B /* APCCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCCircularProgressView.h; sourceTree = "<group>"; };
+		2E5433CB1B0BBC8800A2878B /* APCCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCCircularProgressView.m; sourceTree = "<group>"; };
+		2E5433CC1B0BBC8800A2878B /* APCConcentricProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCConcentricProgressView.h; sourceTree = "<group>"; };
+		2E5433CD1B0BBC8800A2878B /* APCConcentricProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCConcentricProgressView.m; sourceTree = "<group>"; };
+		2E5433CE1B0BBC8800A2878B /* APCConfirmationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCConfirmationView.h; sourceTree = "<group>"; };
+		2E5433CF1B0BBC8800A2878B /* APCConfirmationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCConfirmationView.m; sourceTree = "<group>"; };
+		2E5433D01B0BBC8800A2878B /* APCConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCConstants.h; sourceTree = "<group>"; };
+		2E5433D11B0BBC8800A2878B /* APCConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCConstants.m; sourceTree = "<group>"; };
+		2E5433D21B0BBC8800A2878B /* APCCustomBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCCustomBackButton.h; sourceTree = "<group>"; };
+		2E5433D31B0BBC8800A2878B /* APCCustomBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCCustomBackButton.m; sourceTree = "<group>"; };
+		2E5433D41B0BBC8800A2878B /* APCHorizontalBottomThinLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCHorizontalBottomThinLineView.h; sourceTree = "<group>"; };
+		2E5433D51B0BBC8800A2878B /* APCHorizontalBottomThinLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCHorizontalBottomThinLineView.m; sourceTree = "<group>"; };
+		2E5433D61B0BBC8800A2878B /* APCHorizontalThinLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCHorizontalThinLineView.h; sourceTree = "<group>"; };
+		2E5433D71B0BBC8800A2878B /* APCHorizontalThinLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCHorizontalThinLineView.m; sourceTree = "<group>"; };
+		2E5433D81B0BBC8800A2878B /* APCInsightBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCInsightBarView.h; sourceTree = "<group>"; };
+		2E5433D91B0BBC8800A2878B /* APCInsightBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCInsightBarView.m; sourceTree = "<group>"; };
+		2E5433DA1B0BBC8800A2878B /* APCPieGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCPieGraphView.h; sourceTree = "<group>"; };
+		2E5433DB1B0BBC8800A2878B /* APCPieGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCPieGraphView.m; sourceTree = "<group>"; };
+		2E5433DC1B0BBC8800A2878B /* APCStepProgressBar+Appearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "APCStepProgressBar+Appearance.h"; sourceTree = "<group>"; };
+		2E5433DD1B0BBC8800A2878B /* APCStepProgressBar+Appearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "APCStepProgressBar+Appearance.m"; sourceTree = "<group>"; };
+		2E5433DE1B0BBC8800A2878B /* APCStepProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCStepProgressBar.h; sourceTree = "<group>"; };
+		2E5433DF1B0BBC8800A2878B /* APCStepProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCStepProgressBar.m; sourceTree = "<group>"; };
+		2E5433E01B0BBC8800A2878B /* APCVerticalThinLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCVerticalThinLineView.h; sourceTree = "<group>"; };
+		2E5433E11B0BBC8800A2878B /* APCVerticalThinLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCVerticalThinLineView.m; sourceTree = "<group>"; };
+		2E5433E31B0BBC8800A2878B /* APCAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCAxisView.h; sourceTree = "<group>"; };
+		2E5433E41B0BBC8800A2878B /* APCAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCAxisView.m; sourceTree = "<group>"; };
+		2E5433E51B0BBC8800A2878B /* APCBaseGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCBaseGraphView.h; sourceTree = "<group>"; };
+		2E5433E61B0BBC8800A2878B /* APCBaseGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCBaseGraphView.m; sourceTree = "<group>"; };
+		2E5433E71B0BBC8800A2878B /* APCCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCCircleView.h; sourceTree = "<group>"; };
+		2E5433E81B0BBC8800A2878B /* APCCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCCircleView.m; sourceTree = "<group>"; };
+		2E5433E91B0BBC8800A2878B /* APCDiscreteGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCDiscreteGraphView.h; sourceTree = "<group>"; };
+		2E5433EA1B0BBC8800A2878B /* APCDiscreteGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCDiscreteGraphView.m; sourceTree = "<group>"; };
+		2E5433EB1B0BBC8800A2878B /* APCGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCGraph.h; sourceTree = "<group>"; };
+		2E5433EC1B0BBC8800A2878B /* APCGraphConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCGraphConstants.h; sourceTree = "<group>"; };
+		2E5433ED1B0BBC8800A2878B /* APCLineGraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCLineGraphView.h; sourceTree = "<group>"; };
+		2E5433EE1B0BBC8800A2878B /* APCLineGraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCLineGraphView.m; sourceTree = "<group>"; };
+		2E5433EF1B0BBC8800A2878B /* APCPresentAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCPresentAnimator.h; sourceTree = "<group>"; };
+		2E5433F01B0BBC8800A2878B /* APCPresentAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCPresentAnimator.m; sourceTree = "<group>"; };
+		2E5433F11B0BBC8800A2878B /* APCResizeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCResizeView.h; sourceTree = "<group>"; };
+		2E5433F21B0BBC8800A2878B /* APCResizeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCResizeView.m; sourceTree = "<group>"; };
+		2E5433F31B0BBC8800A2878B /* UIColor+APCAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+APCAppearance.h"; sourceTree = "<group>"; };
+		2E5433F41B0BBC8800A2878B /* UIColor+APCAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+APCAppearance.m"; sourceTree = "<group>"; };
+		2E5433F51B0BBC8800A2878B /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		2E5433F61B0BBC8800A2878B /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		2E5433F71B0BBC8800A2878B /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
+		2E5433F81B0BBC8800A2878B /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E5433441B0BB7F500A2878B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E54335D1B0BB7F500A2878B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E54333E1B0BB7F500A2878B = {
+			isa = PBXGroup;
+			children = (
+				2E5433491B0BB7F500A2878B /* TTAppCoreGraphing */,
+				2E5433631B0BB7F500A2878B /* TTAppCoreGraphingTests */,
+				2E5433481B0BB7F500A2878B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E5433481B0BB7F500A2878B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E5433471B0BB7F500A2878B /* TTAppCoreGraphing.app */,
+				2E5433601B0BB7F500A2878B /* TTAppCoreGraphingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E5433491B0BB7F500A2878B /* TTAppCoreGraphing */ = {
+			isa = PBXGroup;
+			children = (
+				2E54334E1B0BB7F500A2878B /* AppDelegate.h */,
+				2E54334F1B0BB7F500A2878B /* AppDelegate.m */,
+				2E5433511B0BB7F500A2878B /* ViewController.h */,
+				2E5433521B0BB7F500A2878B /* ViewController.m */,
+				2E5433541B0BB7F500A2878B /* Main.storyboard */,
+				2E5433571B0BB7F500A2878B /* Images.xcassets */,
+				2E5433591B0BB7F500A2878B /* LaunchScreen.xib */,
+				2E54334A1B0BB7F500A2878B /* Supporting Files */,
+			);
+			path = TTAppCoreGraphing;
+			sourceTree = "<group>";
+		};
+		2E54334A1B0BB7F500A2878B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E5433C31B0BBC8800A2878B /* Components */,
+				2E54334B1B0BB7F500A2878B /* Info.plist */,
+				2E54334C1B0BB7F500A2878B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E5433631B0BB7F500A2878B /* TTAppCoreGraphingTests */ = {
+			isa = PBXGroup;
+			children = (
+				2E5433661B0BB7F500A2878B /* TTAppCoreGraphingTests.m */,
+				2E5433641B0BB7F500A2878B /* Supporting Files */,
+			);
+			path = TTAppCoreGraphingTests;
+			sourceTree = "<group>";
+		};
+		2E5433641B0BB7F500A2878B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E5433651B0BB7F500A2878B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E5433C31B0BBC8800A2878B /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2E5433C41B0BBC8800A2878B /* APCAppearanceInfo.h */,
+				2E5433C51B0BBC8800A2878B /* APCAppearanceInfo.m */,
+				2E5433C61B0BBC8800A2878B /* APCBadgeLabel.h */,
+				2E5433C71B0BBC8800A2878B /* APCBadgeLabel.m */,
+				2E5433C81B0BBC8800A2878B /* APCButton.h */,
+				2E5433C91B0BBC8800A2878B /* APCButton.m */,
+				2E5433CA1B0BBC8800A2878B /* APCCircularProgressView.h */,
+				2E5433CB1B0BBC8800A2878B /* APCCircularProgressView.m */,
+				2E5433CC1B0BBC8800A2878B /* APCConcentricProgressView.h */,
+				2E5433CD1B0BBC8800A2878B /* APCConcentricProgressView.m */,
+				2E5433CE1B0BBC8800A2878B /* APCConfirmationView.h */,
+				2E5433CF1B0BBC8800A2878B /* APCConfirmationView.m */,
+				2E5433D01B0BBC8800A2878B /* APCConstants.h */,
+				2E5433D11B0BBC8800A2878B /* APCConstants.m */,
+				2E5433D21B0BBC8800A2878B /* APCCustomBackButton.h */,
+				2E5433D31B0BBC8800A2878B /* APCCustomBackButton.m */,
+				2E5433D41B0BBC8800A2878B /* APCHorizontalBottomThinLineView.h */,
+				2E5433D51B0BBC8800A2878B /* APCHorizontalBottomThinLineView.m */,
+				2E5433D61B0BBC8800A2878B /* APCHorizontalThinLineView.h */,
+				2E5433D71B0BBC8800A2878B /* APCHorizontalThinLineView.m */,
+				2E5433D81B0BBC8800A2878B /* APCInsightBarView.h */,
+				2E5433D91B0BBC8800A2878B /* APCInsightBarView.m */,
+				2E5433DA1B0BBC8800A2878B /* APCPieGraphView.h */,
+				2E5433DB1B0BBC8800A2878B /* APCPieGraphView.m */,
+				2E5433DC1B0BBC8800A2878B /* APCStepProgressBar+Appearance.h */,
+				2E5433DD1B0BBC8800A2878B /* APCStepProgressBar+Appearance.m */,
+				2E5433DE1B0BBC8800A2878B /* APCStepProgressBar.h */,
+				2E5433DF1B0BBC8800A2878B /* APCStepProgressBar.m */,
+				2E5433E01B0BBC8800A2878B /* APCVerticalThinLineView.h */,
+				2E5433E11B0BBC8800A2878B /* APCVerticalThinLineView.m */,
+				2E5433E21B0BBC8800A2878B /* GraphCharts */,
+				2E5433F31B0BBC8800A2878B /* UIColor+APCAppearance.h */,
+				2E5433F41B0BBC8800A2878B /* UIColor+APCAppearance.m */,
+				2E5433F51B0BBC8800A2878B /* UIImage+ImageEffects.h */,
+				2E5433F61B0BBC8800A2878B /* UIImage+ImageEffects.m */,
+				2E5433F71B0BBC8800A2878B /* UIView+Helper.h */,
+				2E5433F81B0BBC8800A2878B /* UIView+Helper.m */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2E5433E21B0BBC8800A2878B /* GraphCharts */ = {
+			isa = PBXGroup;
+			children = (
+				2E5433E31B0BBC8800A2878B /* APCAxisView.h */,
+				2E5433E41B0BBC8800A2878B /* APCAxisView.m */,
+				2E5433E51B0BBC8800A2878B /* APCBaseGraphView.h */,
+				2E5433E61B0BBC8800A2878B /* APCBaseGraphView.m */,
+				2E5433E71B0BBC8800A2878B /* APCCircleView.h */,
+				2E5433E81B0BBC8800A2878B /* APCCircleView.m */,
+				2E5433E91B0BBC8800A2878B /* APCDiscreteGraphView.h */,
+				2E5433EA1B0BBC8800A2878B /* APCDiscreteGraphView.m */,
+				2E5433EB1B0BBC8800A2878B /* APCGraph.h */,
+				2E5433EC1B0BBC8800A2878B /* APCGraphConstants.h */,
+				2E5433ED1B0BBC8800A2878B /* APCLineGraphView.h */,
+				2E5433EE1B0BBC8800A2878B /* APCLineGraphView.m */,
+				2E5433EF1B0BBC8800A2878B /* APCPresentAnimator.h */,
+				2E5433F01B0BBC8800A2878B /* APCPresentAnimator.m */,
+				2E5433F11B0BBC8800A2878B /* APCResizeView.h */,
+				2E5433F21B0BBC8800A2878B /* APCResizeView.m */,
+			);
+			path = GraphCharts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E5433461B0BB7F500A2878B /* TTAppCoreGraphing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E54336A1B0BB7F500A2878B /* Build configuration list for PBXNativeTarget "TTAppCoreGraphing" */;
+			buildPhases = (
+				2E5433431B0BB7F500A2878B /* Sources */,
+				2E5433441B0BB7F500A2878B /* Frameworks */,
+				2E5433451B0BB7F500A2878B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTAppCoreGraphing;
+			productName = TTAppCoreGraphing;
+			productReference = 2E5433471B0BB7F500A2878B /* TTAppCoreGraphing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E54335F1B0BB7F500A2878B /* TTAppCoreGraphingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E54336D1B0BB7F500A2878B /* Build configuration list for PBXNativeTarget "TTAppCoreGraphingTests" */;
+			buildPhases = (
+				2E54335C1B0BB7F500A2878B /* Sources */,
+				2E54335D1B0BB7F500A2878B /* Frameworks */,
+				2E54335E1B0BB7F500A2878B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2E5433621B0BB7F500A2878B /* PBXTargetDependency */,
+			);
+			name = TTAppCoreGraphingTests;
+			productName = TTAppCoreGraphingTests;
+			productReference = 2E5433601B0BB7F500A2878B /* TTAppCoreGraphingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E54333F1B0BB7F500A2878B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Mission Minds";
+				TargetAttributes = {
+					2E5433461B0BB7F500A2878B = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					2E54335F1B0BB7F500A2878B = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 2E5433461B0BB7F500A2878B;
+					};
+				};
+			};
+			buildConfigurationList = 2E5433421B0BB7F500A2878B /* Build configuration list for PBXProject "TTAppCoreGraphing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E54333E1B0BB7F500A2878B;
+			productRefGroup = 2E5433481B0BB7F500A2878B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E5433461B0BB7F500A2878B /* TTAppCoreGraphing */,
+				2E54335F1B0BB7F500A2878B /* TTAppCoreGraphingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E5433451B0BB7F500A2878B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5433561B0BB7F500A2878B /* Main.storyboard in Resources */,
+				2E54335B1B0BB7F500A2878B /* LaunchScreen.xib in Resources */,
+				2E5433581B0BB7F500A2878B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E54335E1B0BB7F500A2878B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E5433431B0BB7F500A2878B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5434041B0BBC8800A2878B /* APCPieGraphView.m in Sources */,
+				2E5433FB1B0BBC8800A2878B /* APCButton.m in Sources */,
+				2E5433531B0BB7F500A2878B /* ViewController.m in Sources */,
+				2E5433FD1B0BBC8800A2878B /* APCConcentricProgressView.m in Sources */,
+				2E5434081B0BBC8800A2878B /* APCAxisView.m in Sources */,
+				2E5434101B0BBC8800A2878B /* UIImage+ImageEffects.m in Sources */,
+				2E5434111B0BBC8800A2878B /* UIView+Helper.m in Sources */,
+				2E54340E1B0BBC8800A2878B /* APCResizeView.m in Sources */,
+				2E5433FC1B0BBC8800A2878B /* APCCircularProgressView.m in Sources */,
+				2E5433FA1B0BBC8800A2878B /* APCBadgeLabel.m in Sources */,
+				2E54340D1B0BBC8800A2878B /* APCPresentAnimator.m in Sources */,
+				2E5433501B0BB7F500A2878B /* AppDelegate.m in Sources */,
+				2E5434021B0BBC8800A2878B /* APCHorizontalThinLineView.m in Sources */,
+				2E5433F91B0BBC8800A2878B /* APCAppearanceInfo.m in Sources */,
+				2E5434011B0BBC8800A2878B /* APCHorizontalBottomThinLineView.m in Sources */,
+				2E54334D1B0BB7F500A2878B /* main.m in Sources */,
+				2E54340A1B0BBC8800A2878B /* APCCircleView.m in Sources */,
+				2E54340B1B0BBC8800A2878B /* APCDiscreteGraphView.m in Sources */,
+				2E5433FF1B0BBC8800A2878B /* APCConstants.m in Sources */,
+				2E5434091B0BBC8800A2878B /* APCBaseGraphView.m in Sources */,
+				2E5433FE1B0BBC8800A2878B /* APCConfirmationView.m in Sources */,
+				2E5434061B0BBC8800A2878B /* APCStepProgressBar.m in Sources */,
+				2E54340C1B0BBC8800A2878B /* APCLineGraphView.m in Sources */,
+				2E5434031B0BBC8800A2878B /* APCInsightBarView.m in Sources */,
+				2E54340F1B0BBC8800A2878B /* UIColor+APCAppearance.m in Sources */,
+				2E5434001B0BBC8800A2878B /* APCCustomBackButton.m in Sources */,
+				2E5434071B0BBC8800A2878B /* APCVerticalThinLineView.m in Sources */,
+				2E5434051B0BBC8800A2878B /* APCStepProgressBar+Appearance.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E54335C1B0BB7F500A2878B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5433671B0BB7F500A2878B /* TTAppCoreGraphingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E5433621B0BB7F500A2878B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E5433461B0BB7F500A2878B /* TTAppCoreGraphing */;
+			targetProxy = 2E5433611B0BB7F500A2878B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2E5433541B0BB7F500A2878B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E5433551B0BB7F500A2878B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2E5433591B0BB7F500A2878B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E54335A1B0BB7F500A2878B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E5433681B0BB7F500A2878B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2E5433691B0BB7F500A2878B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E54336B1B0BB7F500A2878B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTAppCoreGraphing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E54336C1B0BB7F500A2878B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTAppCoreGraphing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2E54336E1B0BB7F500A2878B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TTAppCoreGraphingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTAppCoreGraphing.app/TTAppCoreGraphing";
+			};
+			name = Debug;
+		};
+		2E54336F1B0BB7F500A2878B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TTAppCoreGraphingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTAppCoreGraphing.app/TTAppCoreGraphing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E5433421B0BB7F500A2878B /* Build configuration list for PBXProject "TTAppCoreGraphing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5433681B0BB7F500A2878B /* Debug */,
+				2E5433691B0BB7F500A2878B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E54336A1B0BB7F500A2878B /* Build configuration list for PBXNativeTarget "TTAppCoreGraphing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E54336B1B0BB7F500A2878B /* Debug */,
+				2E54336C1B0BB7F500A2878B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2E54336D1B0BB7F500A2878B /* Build configuration list for PBXNativeTarget "TTAppCoreGraphingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E54336E1B0BB7F500A2878B /* Debug */,
+				2E54336F1B0BB7F500A2878B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E54333F1B0BB7F500A2878B /* Project object */;
+}
